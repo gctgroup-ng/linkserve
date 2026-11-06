@@ -35,7 +35,7 @@ const reasons = [
 export function Why() {
   return (
     <section id="why" className="py-24 md:py-32">
-      <div className="container grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
+      <div className="mx-auto grid max-w-8xl gap-14 px-6 sm:px-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20 lg:px-16">
         <Reveal className="flex flex-col justify-between">
           <div>
             <SectionHeading

@@ -3,7 +3,7 @@ import { Reveal } from "@/components/motion";
 import { SectionHeading } from "@/components/section-heading";
 
 const facts = [
-  { value: "End-to-End", label: "Core network, BSS & infrastructure solutions" },
+  { value: "End-to-End", label: "Core network, BSS/OSS & infrastructure solutions" },
   { value: "Carrier-Grade", label: "Mission-critical reliability and performance" },
   { value: "Pan-African", label: "Market focus and delivery reach" },
 ];
@@ -11,7 +11,7 @@ const facts = [
 export function About() {
   return (
     <section id="about" className="py-24 md:py-32">
-      <div className="container grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+      <div className="mx-auto grid max-w-8xl items-center gap-14 px-6 sm:px-10 lg:grid-cols-2 lg:gap-20 lg:px-16">
         <Reveal>
           <div>
             <SectionHeading
@@ -45,7 +45,7 @@ export function About() {
             <p>
               Linkserve designs, deploys, and powers the critical networks
               and systems that modern connectivity demands. From core network
-              architecture to intelligent business support systems (BSS),
+              architecture to intelligent BSS and OSS platforms,
               we provide the operational backbone that operators, MVNOs, and
               enterprises rely on.
             </p>
@@ -61,7 +61,7 @@ export function About() {
             {facts.map((f) => (
               <div key={f.label}>
                 <dt className="sr-only">{f.label}</dt>
-                <dd className="text-3xl font-semibold tracking-tight text-primary">
+                <dd className="text-2xl font-semibold tracking-tight text-primary sm:text-xl lg:text-3xl">
                   {f.value}
                 </dd>
                 <p className="mt-2 text-sm text-muted-foreground" aria-hidden="true">

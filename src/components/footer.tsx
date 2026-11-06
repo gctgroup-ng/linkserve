@@ -5,6 +5,7 @@ import { navLinks, site } from "@/lib/site";
 
 const services = [
   "Telecommunications Infrastructure",
+  "Operations Support Systems (OSS)",
   "Business Support Systems (BSS)",
   "Core Network Solutions",
   "MVNO & MVNE Enablement",
@@ -13,8 +14,8 @@ const services = [
 export function Footer() {
   return (
     <footer id="contact" className="bg-primary text-white/70">
-      <div className="container py-16 md:py-20">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto max-w-8xl px-6 py-16 sm:px-10 md:py-20 lg:px-16">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
             <Logo invert />
             <p className="mt-5 max-w-xs text-sm leading-relaxed">

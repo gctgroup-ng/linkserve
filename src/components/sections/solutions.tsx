@@ -1,4 +1,4 @@
-import { Network, ServerCog, Radio } from "lucide-react";
+import { Activity, Network, Radio, ServerCog } from "lucide-react";
 
 import { Reveal } from "@/components/motion";
 import { SectionHeading } from "@/components/section-heading";
@@ -12,12 +12,20 @@ const solutions = [
     points: ["Network planning & rollout", "Transmission & access", "Managed operations"],
   },
   {
+    icon: Activity,
+    title: "Operations Support Systems (OSS)",
+    description:
+      "Network monitoring, automated service provisioning, fault management and assurance platforms that ensure carrier-grade performance and operational reliability.",
+    points: ["Fault & performance monitoring", "Automated service provisioning", "Network inventory & assurance"],
+  },
+  {
     icon: ServerCog,
     title: "Business Support Systems (BSS)",
     description:
       "Billing, charging, customer management and product catalogue platforms that turn network capability into commercial services, quickly and accurately.",
     points: ["Billing & charging", "Customer lifecycle", "Product & offer management"],
   },
+  
   {
     icon: Network,
     title: "Core Network Solutions",
@@ -30,19 +38,19 @@ const solutions = [
 export function Solutions() {
   return (
     <section id="solutions" className="bg-highlight/50 py-24 md:py-32">
-      <div className="container">
+      <div className="mx-auto max-w-8xl px-6 sm:px-10 lg:px-16">
         <Reveal>
           <SectionHeading
             eyebrow="Our Solutions"
             title="Everything an operator needs, from the ground up."
-            description="Three core capabilities that work independently or as one integrated platform."
+            description="Four core capabilities that work independently or as one integrated platform."
           />
         </Reveal>
 
-        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-3">
+        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {solutions.map((s, i) => (
             <Reveal key={s.title} delay={i * 0.08} className="bg-background">
-              <article className="group flex h-full flex-col p-8 transition-colors hover:bg-white lg:p-10">
+              <article className="group flex h-full flex-col p-6 sm:p-8 transition-colors hover:bg-white lg:p-6 xl:p-8">
                 <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-highlight text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
                   <s.icon className="h-6 w-6" aria-hidden="true" />
                 </span>

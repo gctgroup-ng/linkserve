@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     "MVNO enablement Africa",
     "MVNE platform",
     "BSS solutions",
+    "OSS solutions",
     "core network solutions",
   ],
   openGraph: {

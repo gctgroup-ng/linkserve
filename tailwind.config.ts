@@ -44,6 +44,9 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-manrope)", "system-ui", "sans-serif"],
       },
+      maxWidth: {
+        "8xl": "88rem",
+      },
       keyframes: {
         "pulse-node": {
           "0%, 100%": { opacity: "0.5", transform: "scale(1)" },

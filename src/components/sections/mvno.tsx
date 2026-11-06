@@ -37,7 +37,7 @@ export function Mvno() {
         className="absolute -right-24 -top-24 -z-10 h-[360px] w-[360px] rounded-full bg-accent/20 blur-3xl"
       />
 
-      <div className="container">
+      <div className="mx-auto max-w-8xl px-6 sm:px-10 lg:px-16">
         <Reveal>
           <SectionHeading
             invert
@@ -59,14 +59,14 @@ export function Mvno() {
               />
               <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-transparent via-primary/30 to-primary" />
             </div>
-            <div className="p-8 sm:p-10 lg:col-span-7">
+            <div className="p-6 sm:p-8 lg:p-10 lg:col-span-7">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent border border-accent/30">
                 End-to-End Enablement
               </span>
-              <h3 className="mt-4 text-2xl font-semibold tracking-tight text-white">
-                Turnkey core network access, zero tower investments
+              <h3 className="mt-4 text-xl sm:text-2xl font-semibold tracking-tight text-white">
+                Complete core network access, zero tower investments
               </h3>
-              <p className="mt-3 text-base leading-relaxed text-white/75">
+              <p className="mt-3 text-sm sm:text-base leading-relaxed text-white/75">
                 Linkserve bridges virtual operators directly into host MNO capacity, intelligent billing, and carrier-grade voice, SMS, and data pipes. Launch faster, minimize capital expenditure, and scale your brand seamlessly.
               </p>
             </div>

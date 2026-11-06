@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export function Cta() {
   return (
     <section aria-labelledby="cta-heading" className="pb-24 md:pb-32">
-      <div className="container">
+      <div className="mx-auto max-w-8xl px-6 sm:px-10 lg:px-16">
         <Reveal>
           <div className="relative isolate overflow-hidden rounded-3xl bg-primary px-6 py-16 text-center text-white sm:px-12 md:py-24">
             <Image
@@ -33,7 +33,7 @@ export function Cta() {
               Ready to build Africa&apos;s next connected service?
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-base text-white/75 sm:text-lg">
-              Talk to our team about infrastructure, BSS, core network or MVNO
+              Talk to our team about infrastructure, BSS/OSS, core network or MVNO
               and MVNE enablement.
             </p>
             <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">

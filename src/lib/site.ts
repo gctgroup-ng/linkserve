@@ -3,10 +3,10 @@ export const site = {
   url: "https://www.linkserve.com.ng",
   title: "Linkserve | Telecommunications Infrastructure & Technology Solutions",
   description:
-    "Linkserve is an established Nigerian telecommunications infrastructure and technology provider, enabling MVNOs, MVNEs and operators across Africa with BSS, core network and infrastructure solutions.",
+    "Linkserve is an established Nigerian telecommunications infrastructure and technology provider, enabling MVNOs, MVNEs and operators across Africa with BSS/OSS, core network and infrastructure solutions.",
   founded: 1996,
   email: "hello@linkserve.com.ng",
-  phone: "+234 (0) 000 000 0000",
+  phone: "+234 (0) 700 134 5000",
   address: "Lagos, Nigeria",
 };
 

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main id="main">
+      <main id="main" className="overflow-x-hidden">
         <Hero />
         <About />
         <Solutions />

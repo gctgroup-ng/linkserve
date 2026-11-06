@@ -19,17 +19,18 @@ export function Hero() {
         className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-40 bg-gradient-to-t from-background to-transparent"
       />
 
-      <div className="container grid items-center gap-12 pb-24 md:pb-32 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
+      <div className="mx-auto grid max-w-8xl items-center gap-12 px-6 pb-24 sm:px-10 md:pb-32 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 lg:px-16">
         <div>
           <Reveal>
             <p className="inline-flex items-center gap-2 rounded-full bg-highlight px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-secondary">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden="true" />
-              Telecom infrastructure since 1996
+              Telecom infrastructure 
+              {/* since 1996 */}
             </p>
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h1 className="mt-6 text-4xl font-semibold leading-[1.08] tracking-tight text-primary sm:text-5xl lg:text-6xl">
+            <h1 className="mt-6 text-3xl font-semibold leading-[1.12] tracking-tight text-primary sm:text-5xl lg:text-6xl">
               Powering the Infrastructure Behind{" "}
               <span className="text-gradient">Africa&apos;s Connected Future.</span>
             </h1>

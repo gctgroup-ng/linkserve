@@ -4,10 +4,10 @@ import { cn } from "@/lib/utils";
 export function Logo({
   className,
   invert = false,
-}: {
+}: Readonly<{
   className?: string;
   invert?: boolean;
-}) {
+}>) {
   return (
     <span className={cn("inline-flex items-center gap-2.5", className)}>
       <svg

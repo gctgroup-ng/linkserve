@@ -34,7 +34,7 @@ export function Navbar() {
           : "bg-transparent",
       )}
     >
-      <div className="container flex h-16 items-center justify-between md:h-20">
+      <div className="mx-auto flex h-16 max-w-8xl items-center justify-between px-6 sm:px-10 md:h-20 lg:px-26">
         <a href="#top" aria-label="Linkserve home">
           <Logo />
         </a>
@@ -73,7 +73,7 @@ export function Navbar() {
         <nav
           id="mobile-nav"
           aria-label="Mobile"
-          className="container flex flex-col gap-1 pb-6 lg:hidden"
+          className="mx-auto flex max-w-8xl flex-col gap-1 px-6 pb-6 sm:px-10 lg:hidden"
         >
           {navLinks.map((l) => (
             <a
