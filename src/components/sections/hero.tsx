@@ -24,7 +24,7 @@ export function Hero() {
           <Reveal>
             <p className="inline-flex items-center gap-2 rounded-full bg-highlight px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-secondary">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden="true" />
-              Telecom infrastructure for you
+              Telecom infrastructure
               {/* since 1996 */}
             </p>
           </Reveal>
